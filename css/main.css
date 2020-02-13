@@ -101,6 +101,16 @@ body{
 a{
     cursor: pointer;
     margin-left: 15px;
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 20px;
+    color: snow;
+    text-decoration: none;
+}
+
+.incontent-link{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    color: #D95284;
 }
 
 .mid-line{
@@ -146,4 +156,9 @@ p{
 hr{
     margin-top: 30px;
     border: .5px solid #D95284;
+}
+
+.span-aside{
+    font-style: oblique;
+    font-size: 10px;
 }

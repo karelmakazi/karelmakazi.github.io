@@ -162,3 +162,9 @@ hr{
     font-style: oblique;
     font-size: 10px;
 }
+
+#toulie{
+    float:left;
+    display: inline-block;
+    margin-right: 15px;
+}

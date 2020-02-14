@@ -160,6 +160,13 @@ h3{
     color:#D95284;
 }
 
+figcaption{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+    font-size: 13px;
+    color: snow;
+}
+
 .span-aside{
     font-style: oblique;
     font-size: 10px;
@@ -168,4 +175,8 @@ h3{
 #toulie{
     float: left;
     margin-right: 15px;
+}
+
+.s2-coding-example{
+    width: 600;
 }

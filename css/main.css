@@ -141,7 +141,7 @@ a{
 
 }
 
-#content-head{
+.content-head{
     font-family: 'Bree Serif', serif;
     font-size: x-large;
     color:#D95284;
@@ -156,6 +156,12 @@ p{
 hr{
     margin-top: 30px;
     border: .5px solid #D95284;
+}
+
+h3{
+    font-family: 'Bree Serif', serif;
+    font-size: large;
+    color:#D95284;
 }
 
 .span-aside{

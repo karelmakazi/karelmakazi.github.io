@@ -28,21 +28,73 @@
                         <span id="mid-title">Sprint 2</span>
                     </div>
                     <div class="col-9 mid-navigation">
-                        <a class="incontent-link">Technical Blog</a>
-                        <a class="incontent-link">Culture Blog</a>
+                        <a href="#sprint2-tech" class="incontent-link">Class Wars: ID vs Class</a>
+                        <a href="#sprint2-core" class="incontent-link">Learning Reflections</a>
                     </div>
                 
                     <div class="row content-container">
                         <div class="col-3"></div>
                         <div class="col-9 content-box">
-                            <span id="content-head">Sprint 2: Technical</span>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor facere eum accusamus, doloremque quas sunt corporis quasi molestias libero. Atque, enim sint delectus ipsam nobis ullam nam rerum inventore! Et.</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor facere eum accusamus, doloremque quas sunt corporis quasi molestias libero. Atque, enim sint delectus ipsam nobis ullam nam rerum inventore! Et.</p>
+                            <span id="sprint2-tech" class="content-head">Class Wars: ID vs Class</span>
+                            <p>In this post I will first briefly dicsuss the differences between Class and ID and then outline some of the best practices you should
+                            consider when using these two identifiers in your work.</p>
+
+                            <h3>What is an Identifier?</h3>
+                            <p>Both Class and ID can be considered an identifier. You can use them when you need to refer to a specific element within your hmtl code 
+                            from within your CSS file. But what is the difference bewteen them, and when should I use ID as opposed to class? </p>
+
+                            <h3>All part of the Team</h3>
+                            <p>The most important destinction between ID and Class is that of scope. ID is very specific and there can only ever be one instance of
+                            a particular ID in your code. Class is much more flexible and can be applied to many different elements within the same page, and an element
+                            can even have mulitple classes applied to it. A real life analogy can be found in the murky world of sportsball. If we think about a stock
+                            standard team of sportsballers, the position a player plays in will be its ID. There may be lots of players running around, but there can only
+                            ever be one Boss Ballstopper per team. Class would be more akin to the Team in the sense that all members are part of the same entity and that
+                            they all wear the team jersey regardless of where they play. This analogy can also be extended further as any element on a page can have 
+                            more than one class assigned to it - just as a sportsballer can play different kinds of sport while still being a member of the team.</p>
+
+                            <h3>Best Practices</h3> 
+                            <p>In most cases it would be preferable to use Class rather than ID. This is mainly due to the incredible flexibility of a class. You can set them 
+                            up once and then apply them across your entire site, fine tuning and applying multiple levels of classes to get your job done quickly and 
+                            effectively across all elements sharing the assigned class.</p>
+
+                            <p>IDs trade their flexibility in order to be referenced directly. This specificity allows you to fine tune your elements to very fine degree but 
+                            only ever the one element that bears that ID. IDs also outrank classes, and can be used to overwrite any styling stemming from a class. 
+                            In short, due to being unique IDs excel at being called and referred to by workflow elements such as direct styling, anchor links and is 
+                            particulary handy in Javascript.</p>
+
+                            <p>To summarise - when you need to apply styling across a range of elements without creating referential chaos, use Class. When it comes to 
+                            styling one very particular element and that element only, or if you need to refer or call an object directly, use ID.</p>
+
                             <hr>
 
-                            <span id="content-head">Sprint 2: Cultural</span>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor facere eum accusamus, doloremque quas sunt corporis quasi molestias libero. Atque, enim sint delectus ipsam nobis ullam nam rerum inventore! Et.</p>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor facere eum accusamus, doloremque quas sunt corporis quasi molestias libero. Atque, enim sint delectus ipsam nobis ullam nam rerum inventore! Et.</p>
+                            <span id="sprint2-core" class="content-head">Learning Reflections</span>
+                            <h3>Long Term Goals</h3>
+                            <p>My long term goal in attending EDA is to make the leap from Graphic Design into a more tech based career. In the long run I would ideally like 
+                                to add some additional languages into my coding arsenal and potentially move away from design based work and into more abstract coding. 
+                                The end goal in all of this however would be to find a spot in an industry where I can have control over how and when I work and where I can 
+                                manage my day in a way that allows time to look after myself and my mental health.</p>
+                            <h3>Soft Skills To Be Acquired</h3>
+                            <p>I feel that I am pretty good with people. I do have a limit though and once that has been crossed I find it very hard to be around and deal 
+                                with people and life in general. In my past career I was pulled over that line more than I’d like to admit and would love if my time at EDA 
+                                can go some way towards resetting my position in this regard. I am also hoping that having more agency would allow me to grow an industry 
+                                suitable resilience that I can maintain in the long run.</p>
+                            <h3>Strenghts & Weaknesses</h3>
+                            <p>Strengths: I am determined, curious to a fault, love to learn and I love helping people <br>Weaknesses: I am perfectionistic, can get focussed on 
+                               details and can lose interest quickly if I can’t see any purpose in what I’m doing.</p>
+                            <h3>How I could Grow</h3>
+                            <p>With all of the above I believe that the best way for me to grow would be to firstly have control over my day. This will enable me to build a routine 
+                                designed to keep anxiety at bay and allow me to work with a clear, calm and efficient mind when I do sit down to do my work. I realise that this might 
+                                become a bit of an issue when Boot Camp kicks off but I am hoping that the groundwork I’m doing now will give me the tools to cope with the sudden increase 
+                                in workload and stress at that time.</p>
+                            <h3>What To Do When Stuck</h3>
+                            <p>I must admit that I have a bit of a hard time asking for help, but have discovered the joys of Googling my coding problems and quickly finding solutions, 
+                                and if not solutions, then good pointers towards further research. If this fails me I will make use of the Slack channels. I suspect that as I become more 
+                                familiar with my cohort (and the code advice channel people) the balance between these options will shift.</p>
+                            <h3>Faciliting Facilitors</h3>
+                            <p>I expect my facilitation team to have some understanding of possible danger areas for me (mental health traps) and possibly help me a little when I do hit a 
+                                slump. Other than that, just being there to check in and give expert pointers and support when needed would be more than anyone could hope for! </p>
+                            <h3>Other Commitments</h3>
+                            <p>I have no set in stone time commitments I need to work around at the moment.</p>
                             <hr>
 
                         </div>

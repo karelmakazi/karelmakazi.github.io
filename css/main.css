@@ -9,6 +9,39 @@ body{
     background-color: black;
 }
 
+a{
+    cursor: pointer;
+    margin-left: 15px;
+    font-family: 'Source Sans Pro', sans-serif; 
+    font-size: 20px;
+    color: snow;
+    text-decoration: none;
+}
+
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    color: snow;
+}
+
+hr{
+    margin-top: 30px;
+    border: .5px solid #D95284;
+}
+
+h3{
+    font-family: 'Bree Serif', serif;
+    font-size: 20px;
+    color:#D95284;
+}
+
+figcaption{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+    font-size: 13px;
+    color: snow;
+}
+
 .grid {
     margin: 0 auto;
     max-width: 1200px;
@@ -94,15 +127,6 @@ body{
    justify-content: flex-start;
 }
 
-a{
-    cursor: pointer;
-    margin-left: 15px;
-    font-family: 'Source Sans Pro', sans-serif; 
-    font-size: 20px;
-    color: snow;
-    text-decoration: none;
-}
-
 .incontent-link{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
@@ -143,28 +167,11 @@ a{
     color:#D95284;
 }
 
-p{
+.source-title{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 18px;
     color: snow;
-}
-
-hr{
-    margin-top: 30px;
-    border: .5px solid #D95284;
-}
-
-h3{
-    font-family: 'Bree Serif', serif;
-    font-size: large;
-    color:#D95284;
-}
-
-figcaption{
-    font-family: 'Source Sans Pro', sans-serif;
-    font-style: italic;
-    font-size: 13px;
-    color: snow;
+    margin-left: 5px;
 }
 
 .span-aside{
@@ -179,4 +186,20 @@ figcaption{
 
 .s2-coding-example{
     width: 600;
+}
+
+.source-link{
+    cursor: pointer;
+    font-family: 'Bree Serif', serif;
+    font-size: large;
+    color:#D95284;
+    text-decoration: none;
+    margin-left: 0px;
+}
+
+.innerSubHeads{
+    font-family: 'Bree Serif', serif;
+    font-size: 17px;
+    color:snow;
+    margin-right: 10px;
 }
